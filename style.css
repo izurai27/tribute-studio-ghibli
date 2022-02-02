@@ -1,0 +1,106 @@
+body{
+    background-color: #109ceb;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    color:whitesmoke;
+    background-image:url('https://www.ghibli.jp/img/totoro.png'); 
+    /* background-size:80vw; */
+    /* background-position-x: right; */
+    /* background-position-y:bottom; */
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position:  bottom -12vh right -12vw;
+    position:relative;
+    z-index:-7;
+    
+    /* background-blend-mode:soft-light; */
+    
+}
+
+
+
+#title{
+    display:block;
+    margin:auto;
+    text-align: center;
+    font-size:8vmin;
+    /* font-weight: bold; */
+    margin-top:30px;
+    color:whitesmoke;
+    margin-bottom:30px;
+}
+
+#img-div {
+    width:70vw;
+    height:auto;
+    display:block;
+    margin:auto;
+    text-align:center;
+    /* border:1px solid red; */
+    margin-bottom:50px;
+   
+}
+
+#img-div img{
+    /* border:1px solid white; */
+    max-width:100%;
+    border:1px solid white;
+    box-shadow: 4px 4px 20px 2px white, -4px -4px 20px 2px white;
+    box-sizing: border-box;
+    border-radius:20px;
+    display:block;
+}
+
+#img-div #img-caption{
+    margin-top:15px;
+}
+
+#tribute-info{
+    /* margin:0px; */
+    display:block;
+    width:80vw;
+    text-align: justify;
+    margin:auto;
+}
+
+
+
+.movies{
+    text-align: center;
+    margin-top:50px;
+}
+
+.movieslist{
+    display:grid;
+    width:80vw;
+    grid-template-columns: auto auto auto;
+    border:1px sold blue;
+    justify-items:center;
+    /* align-items:center; */
+    margin:auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    margin-bottom:200px;
+    
+}
+
+.movieslist span{
+    margin-bottom:20px;
+}
+
+.tribute-link{
+    text-align: center;
+    height:fit-content;
+    border:1px solid whitesmoke;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#tribute-link a{
+    text-decoration: none;
+}
